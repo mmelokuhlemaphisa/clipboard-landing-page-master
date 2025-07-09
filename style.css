@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #4c4c4c;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+h1, h2, h3{
+    color: #333;
+    margin: 1em 0 0.5em;
+}
+
+p{
+    max-width: 600px;
+    margin: 0 auto 1.5em;
+    color: #666;
+}
+/*buttons*/
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.8 1.6em;
+    border-radius: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn{
+    background: hsl(171,66%,44%);
+}
+
+.btn{
+    background: hsl(233 ,100%, 69);
+}
+
+.hero{
+    padding: 4em 1em;
+    background: white;
+}
+
+.features{
+    padding: 4em ;
+
+}
